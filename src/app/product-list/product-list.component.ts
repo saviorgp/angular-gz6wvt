@@ -13,8 +13,11 @@ export class ProductListComponent {
   share() {
     window.alert('The product has been shared!');
   }
-}
 
+  onEventNotify() {
+    window.alert('Notified!!');
+  }
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
